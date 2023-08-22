@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4 style="color: rgb(255, 0, 183)">First table:-</h4> 
+  <table border="2">
+    <thead>
+        <th>Student Name</th>
+        <th>Student Id</th>
+        <th>Gender</th>
+        <th>Age</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nikhil</td>
+        <td>245</td>
+        <td>Male</td>
+        <td rowspan="4">20</td>
+      </tr>
+      <tr>
+        <td>Saurabh</td>
+        <td>258</td>
+        <td >male</td>
+        <!-- <td>22</td> -->
+      </tr>
+      <tr>
+        <td>Sakir</td>
+        <td>265</td>
+        <td>male</td>
+        <!-- <td>29</td> -->
+      </tr>
+      <tr>
+        <td>rita</td>
+        <td>275</td>
+        <td>female</td> 
+        <!-- <td>22</td> -->
+      </tr>
+    </tbody>
+  </table>  
+
+  <h4 style="color: rgb(183, 0, 255)"> Second Table:-</h4>
+  <table border="2">
+    <tbody> 
+        <tr> 
+            <td>Coloumn1</td>
+            <td>Coloumn2</td>
+            <td>Coloumn3</td>
+        </tr>
+        <tr> 
+            <td rowspan="2">Row 1 cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr> 
+            <!-- <td></td> -->
+            <td>Row 2 cell 2</td>
+            <td>Row 2 cell3 </td>
+        </tr>
+        <tr> 
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <td colspan="4">Row 3 Cell 1</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <h4 style="color: rgb(255, 136, 0)"> Third Table:-</h4>
+  <table border="3">
+    <thead>
+        <th>No.</th>
+        <th>Full Name</th>
+        <th>Position </th>
+        <th>Salary</th>
+        <th>Type</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Founder Microsoft</td>
+            <td>$1000</td>
+            <td rowspan="4">Company Founder</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Steve Jobs </td>
+            <td>Founder Apple</td>
+            <td>$12000</td>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry Page </td>
+            <td>Founder Google </td>
+            <td>$1100</td>
+            
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mark Zuckeberg</td>
+            <td>Founder Facebook</td>
+            <td>$1300</td>
+            
+        </tr>
+       <!-- <tr>
+        <td colspan="3">Total Expense:</td>    (WE CAN USE THE ROW TYPE METHOD INSTEAD OF TFOOT)
+        <td> $4600 </td>
+       </tr> -->
+    </tbody>
+    <tfoot>
+           <tr>
+            <td colspan="3">Total Expense:</td>
+            <td> $4600 </td>
+           </tr>
+    </tfoot>
+  </table>
+
+  <h4 style="color: red">Fourth table:-</h4>
+   <table border="2">
+     <thead>
+        <th>Country</th>
+        <th>State</th>
+        <th>City</th>
+        <th>Street</th>
+        <th>Male</th>
+        <th>Female</th>
+        <th>Others</th>
+
+     </thead>
+     <tbody>
+      <tr>
+        <td rowspan="8">1</td>
+        <td rowspan="4">Kerla </td>
+        <td rowspan="2">Cochin</td>
+        <td>New Street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td>Main Street</td>
+        <td>300</td>
+        <td>288</td>
+        <td>2</td>
+      </tr>
+      <tr>
+    
+        <td rowspan="2">Trivandrum</td>
+        <td>Guru Street </td>
+        <td>500</td>
+        <td>600</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>TVK Street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        
+        <td rowspan="4">Maharastra</td>
+        <td rowspan="2">Mumbai</td>
+        <td>Krishna Street</td>
+        <td>700</td>
+        <td>850</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        
+        <td>Main Street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        
+        <td rowspan="2"> Surnath</td>
+        <td>New Street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        
+        <td>Billa Street</td>
+        <td>500</td>
+        <td>600</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td rowspan="2">2</td>
+        <td rowspan="2">Alaska</td>
+        <td rowspan="2">AKA Central</td>
+        <td>New Street</td>
+        <td>200</td>
+        <td>210</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>Cross Street</td>
+        <td>1000</td>
+        <td>1050</td>
+        <td>10</td>
+      </tr>
+     </tbody>
+   </table>
+</body>
+</html>
